@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>TIC TAC TOE</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .status {
+            border: 1px solid black;
+            background: grey;
+            width: 100px;
+            height: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 0 10px 100px;
+        }
+
+        .grid {
+            width: 300px;
+            margin: 50px 0 0 50px;
+        }
+
+        .square {
+            float: left;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            font-size: 85px;
+            text-align: center;
+            cursor: pointer;
+            display: block;
+        }
+
+        button {
+            background: grey;
+            border: 1px solid black;
+            font-weight: bold;
+            width: 160px;
+            height: 40px;
+            font-size: 20px;
+            margin: 10px 10px 10px 75px;
+            cursor: pointer;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="grid" id="game">
+    <div class="status" id="stat"> GO </div>
+    <div class="square" id="square1"></div>
+    <div class="square" id="square2"></div>
+    <div class="square" id="square3"></div>
+    <div class="square" id="square4"></div>
+    <div class="square" id="square5"></div>
+    <div class="square" id="square6"></div>
+    <div class="square" id="square7"></div>
+    <div class="square" id="square8"></div>
+    <div class="square" id="square9"></div>
+    <button onclick="replay()">Play Again</button>
+
+</body>
+
+<script src="tic_tac_toe.js"></script>
+
+</html>
