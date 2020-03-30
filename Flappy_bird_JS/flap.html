@@ -1,0 +1,34 @@
+<head>
+    <title>
+        Flappy Bird
+    </title>
+    
+</head>
+<style>
+        .status {
+            width: 180px;
+            height: 45px;
+            font-size: 40px;
+            border: 1px solid black;
+            margin: 10 0 0 0;
+            background: greenyellow;
+            text-align: left;
+        }
+        .button {
+            width:180px;
+            height:45px;
+            font-size: 40px;
+            text-align: left;
+            border:1px solid black;
+            margin:10 0 0 0;
+            cursor:pointer;
+        }
+    </style>
+<body>
+    <canvas id="canvas" width="288" height="512" onclick="fly2()"></canvas>
+    <div class="status" id="Score">Score: 0</div>
+    <button class="button" onclick="replay()" id="replay">Replay</button>
+</body>
+<script src="flap.js"></script>
+
+</html>
